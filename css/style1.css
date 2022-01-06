@@ -1,0 +1,138 @@
+.section2{
+    background-image: url(../img/parallex-bg.jpg);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center ;
+    
+    
+}
+.overlay2{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+.overlay2 h3{
+    font-size: x-large;
+
+}
+.overlay2 a{
+    text-decoration: none;
+    color: #fff;
+    border: solid 2px;
+    padding: 10px;
+}
+/* ------------------------------our services-------------------------- */
+.ourservices{
+    background-color: #70808030;
+
+}
+.ourservicescontiner{
+
+    width: 90%;
+    margin: auto;
+}
+.ourservicescont{
+    padding: 20px   ;
+    width: 31%;
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+    display: inline-block;
+
+}
+
+.fw1{
+    font-size: xx-large;
+}
+/* _______________our team________-- */
+.ourteamimg img{
+    width: 200px;
+    margin: 10px;
+}
+/*  ____________-sec3 */
+.section3{
+    background-image: url(../img/counters-bg.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+.section3overlay{
+    background-color: #000000ab;
+    height: 200px;   
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+}
+.fws3{
+    color: gray;
+    font-size: xx-large;
+}
+.sex3span{
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+.sec3cont{
+    width: 20%;
+    line-height: 27px;
+}
+/* -------------------------------our portfolio-------------------------------- */
+.ourPortfolionav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    /* position: sticky;
+    top: 0px; */
+    padding: 10px;
+    
+}
+.ourPortfolionav a:hover{
+    border: solid 1px #0798bc;
+    color: #0798bc;
+
+    background-color: rgba(0, 0, 0, 0.425);
+}
+.ourPortfolionav a{
+    text-decoration: none;
+    color: black;
+    border: solid 1px #8080804a;
+    padding: 15px;
+    margin: 0px 20px 0px 0px;
+    font-weight: bolder;
+    
+}
+.ourPortfolionavactive{
+    color: #0798bc !important;
+    border: solid 1px #0798bc !important;
+
+}
+.ourPortfolioimg{
+    margin-top: 20px;
+    display: none;
+}
+.ourPortfolioimg img{
+width: 33%;
+}
+#All:target 
+{
+    display: block;
+}
+#Wordpress:target {display: block;}
+#Jquery:target  {display: block;}
+#Php:target  {display: block;}
+#Css:target  {display: block;}
+#Html:target {display: block;}
+
+

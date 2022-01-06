@@ -1,0 +1,159 @@
+.clienttest {
+  background-image: url(../img/counters-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 410px;
+  color: white;
+  line-height: 30px;
+}
+.overlay3 {
+  height: 410px;
+  background-color: rgba(0, 0, 0, 0.692);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.clienttestimg {
+  background-color: white;
+  border-radius: 50%;
+  width: 115px;
+  height: 115px;
+}
+.circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: #0798bc;
+  display: inline-block;
+}
+/* -----------our pricing------------ */
+
+.ourpricingcont {
+  width: 320px;
+  margin: 25px;
+  /* height: 500px; */
+  display: inline-block;
+  box-shadow: 1px 3px 8px 0px #888888;
+  border-top: solid;
+  padding: 25px;
+}
+.ourpricingcont1 {
+  /* margin: 20px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.ourpricingcont2 {
+  background-color: #80808033;
+  height: 150px;
+  width: 100%;
+}
+.ourpricingcont2span {
+  font-size: 40px;
+  font-weight: bold;
+}
+small {
+  font-weight: bolder;
+}
+.ourpricingcont2 h2 {
+  color: gray;
+  margin-bottom: 10px;
+}
+.ourpricingcont2 p {
+  margin-top: 10px;
+  color: gray;
+}
+.texts {
+  line-height: 40px;
+  text-align: center;
+}
+.textsspan {
+  color: gray;
+  font-weight: bolder;
+}
+.texts a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 10px 25px;
+  /* margin-top: 50px; */
+}
+.textsa {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+/* _________________________map_____________________ */
+
+.map {
+  margin-top: 40px;
+  width: 100%;
+  background-color: grey;
+}
+/* ------------------------ContactUs------------------------ */
+.ContactUs {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+input {
+  /* display: block; */
+  margin: 15px;
+  width: 670px;
+  height: 40px;
+  padding: 20px;
+}
+textarea {
+  padding: 5px 10px;
+  margin-top: 15px;
+}
+.forma {
+  color: #0798bc;
+  border: solid #0798bc 3px;
+  padding: 10px;
+  margin: 40px auto;
+}
+.forma a {
+  text-decoration: none;
+  color: #0798bc;
+}
+/* ----------------0 */
+.footer {
+  text-align: center;
+  background-color: #0798bc;
+  padding: 30px;
+}
+.ourpricingcont:hover {
+  background-color: rgba(0, 0, 0, 0.034);
+}
+/* -------up-----  /* z-index: 1;
+    overflow: hidden; */------ */
+.up {
+
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.up a {
+  color: #0798bc46;
+  font-size: 60px;
+}
+.up:hover {
+  background-color: rgba(128, 128, 128, 0.233);
+  z-index: 1;
+}
+.up a:hover {
+  color: #0798bc;
+}
